@@ -1,12 +1,7 @@
-# Satisfaction75
+# ShikSixtyEight
 
-Satisfaction75 Keyboard
+### THIS IS A SCHOOL PROJECT, IF IT TAKES OFF, I LITERALLY DON'T CARE
 
-Keyboard Maintainer: [Andrew Kannan](https://github.com/awkannan1)  
-Hardware Supported: STM32F072CBT6  
+Maintainer: [Shikikaze](https://github.com/shikikaze)
 
-Make example for this keyboard (after setting up your build environment):
-
-    make cannonkeys/Satisfaction75:default
-
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+Made for the STM32F411 and STM32F401 Black Pill
