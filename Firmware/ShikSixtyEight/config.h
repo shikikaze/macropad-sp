@@ -27,14 +27,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID       0xCA04
 #define PRODUCT_ID      0x57F5
 #define DEVICE_VER      0x0001
-#define MANUFACTURER CannonKeys
-#define PRODUCT Satisfaction75
+#define MANUFACTURER Shikikaze
+#define PRODUCT SixtyEight
 
 /* key matrix size */
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 16
+#define MATRIX_ROWS 5
+#define MATRIX_COLS 15
 
-#define MATRIX_COL_PINS { B1, B2, B10, B11, B12, B13, B14, A8, A9, A10, B0, A7, A5, B5, A15, A1 }
+#define MATRIX_COL_PINS {  }
 #define MATRIX_ROW_PINS { B3, B4, A0, A2, A4, A3 }
 #define DIODE_DIRECTION COL2ROW
 
