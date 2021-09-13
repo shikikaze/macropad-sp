@@ -34,19 +34,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 15
 
-#define MATRIX_COL_PINS {  }
-#define MATRIX_ROW_PINS { B3, B4, A0, A2, A4, A3 }
+#define MATRIX_COL_PINS { DEFINE }
+#define MATRIX_ROW_PINS { DEFINE }
 #define DIODE_DIRECTION COL2ROW
 
-#define ENCODERS_PAD_A { B9 }
-#define ENCODERS_PAD_B { B8 }
+#define ENCODERS_PAD_A { DEFINE }
+#define ENCODERS_PAD_B { DEFINE }
 
 #define ENCODER_RESOLUTION 2
-
-//LEDS A6, RGB B15
-#define BACKLIGHT_LEVELS 24
-#define BACKLIGHT_BREATHING
-#define BREATHING_PERIOD 6
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
@@ -63,9 +58,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define I2C1_TIMINGR_SDADEL 0x01U
 #define I2C1_TIMINGR_SCLH 0x03U
 #define I2C1_TIMINGR_SCLL 0x09U
-
-/* Set 0 if debouncing isn't needed */
-#define DEBOUNCE    5
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
