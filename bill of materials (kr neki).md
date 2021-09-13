@@ -22,3 +22,4 @@
 
 * 2mm debel acrylic - razrez za plato in ohišje(?) (kinda bi dal pod nujno tbh ampak eh) treba še povprašat mal naokol
 
+* keycaps?
