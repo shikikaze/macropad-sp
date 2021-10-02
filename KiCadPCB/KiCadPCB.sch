@@ -619,4 +619,26 @@ Wire Wire Line
 NoConn ~ 7750 1800
 Wire Wire Line
 	7750 1700 8600 1700
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 618B365B
+P 10600 1150
+F 0 "H2" H 10700 1196 50  0000 L CNN
+F 1 "MountingHole" H 10700 1105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10600 1150 50  0001 C CNN
+F 3 "~" H 10600 1150 50  0001 C CNN
+	1    10600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 618B4503
+P 10600 900
+F 0 "H1" H 10700 946 50  0000 L CNN
+F 1 "MountingHole" H 10700 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10600 900 50  0001 C CNN
+F 3 "~" H 10600 900 50  0001 C CNN
+	1    10600 900 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
