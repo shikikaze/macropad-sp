@@ -1,3 +1,3 @@
-# thingy68
+# Macropad (school project)
 
-keyboard project for smth... al neki
+12+1 key macropad with an encoder, built using QMK and VIA.
