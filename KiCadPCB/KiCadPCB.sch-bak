@@ -63,17 +63,6 @@ Wire Wire Line
 	6350 1800 6100 1800
 Wire Wire Line
 	6100 1800 6100 1900
-$Comp
-L Switch:SW_Push SW15
-U 1 1 6166DF1E
-P 8200 1800
-F 0 "SW15" H 8200 1615 50  0000 C CNN
-F 1 "RESET" H 8200 1500 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H8mm" H 8200 2000 50  0001 C CNN
-F 3 "~" H 8200 2000 50  0001 C CNN
-	1    8200 1800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	7750 2100 8000 2100
 NoConn ~ 6350 2400
@@ -129,16 +118,7 @@ COL5
 Text Label 8000 2700 2    50   ~ 0
 COL6
 Wire Wire Line
-	7750 1800 8000 1800
-Wire Wire Line
-	8400 1700 8400 1800
-Wire Wire Line
-	7750 1700 8400 1700
-Wire Wire Line
-	8400 1700 8600 1700
-Wire Wire Line
 	8600 1700 8600 1850
-Connection ~ 8400 1700
 $Comp
 L power:GND #PWR03
 U 1 1 616D8A0A
@@ -636,4 +616,29 @@ Wire Wire Line
 	5550 3000 5550 3050
 Wire Wire Line
 	5550 3250 5550 3450
+NoConn ~ 7750 1800
+Wire Wire Line
+	7750 1700 8600 1700
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 618B365B
+P 10600 1150
+F 0 "H2" H 10700 1196 50  0000 L CNN
+F 1 "MountingHole" H 10700 1105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10600 1150 50  0001 C CNN
+F 3 "~" H 10600 1150 50  0001 C CNN
+	1    10600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 618B4503
+P 10600 900
+F 0 "H1" H 10700 946 50  0000 L CNN
+F 1 "MountingHole" H 10700 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10600 900 50  0001 C CNN
+F 3 "~" H 10600 900 50  0001 C CNN
+	1    10600 900 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
