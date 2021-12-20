@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L promicro:ProMicro U1
+L KiCadPCB-rescue:ProMicro-promicro U1
 U 1 1 615752A1
 P 7050 2350
 F 0 "U1" H 7050 3387 60  0000 C CNN
